@@ -400,10 +400,9 @@
 
 Отчёт о тестировании Яндекс Прилавка
 Тестирование API Яндекс Прилавка проводилось с использованием инструмента Postman.<br>
-Для тестирования API составлен [чек-лист](https://docs.google.com/spreadsheets/d/1KzRPds99JmNAbX32mBKWREYY8Y_riNlEUFutHennZ-Y/edit?usp=sharing)
-[Результаты выполнения тестов](https://docs.google.com/spreadsheets/d/1KzRPds99JmNAbX32mBKWREYY8Y_riNlEUFutHennZ-Y/edit?usp=sharing)
+Для тестирования API составлен [чек-лист](https://docs.google.com/spreadsheets/d/1KzRPds99JmNAbX32mBKWREYY8Y_riNlEUFutHennZ-Y/edit?usp=sharing)<br>
+[Результаты выполнения тестов](https://docs.google.com/spreadsheets/d/1KzRPds99JmNAbX32mBKWREYY8Y_riNlEUFutHennZ-Y/edit?usp=sharing)<br>
 [Коллекция Postman](https://disk.yandex.ru/d/3VYXJpjrnW9GSQ)
-
 
 Из 101 проверок успешно прошло 66, не прошло — 44, пропущено — 1.<br>
 Список багов, найденных при тестировании, разбит по приоритетам:<br>
