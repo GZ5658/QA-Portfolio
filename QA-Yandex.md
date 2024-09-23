@@ -495,10 +495,12 @@ $ grep -i INFO home/morty/generallogs/logs2.log >> info.log
 
 ### Тестирование баз данных
 
+Разработать тесты на проверку параметра name при создании наборов с продуктами в Яндекс.Прилавок с помощью API Яндекс.Прилавок.
+
 <details>
 <summary><h3> Отчет </h3></summary>
 
-https://github.com/GZ5658/yandex_api_stand_tests
+[Файлы с кодом представлены тут](https://github.com/GZ5658/QA-Portfolio/tree/developer/Основы%20автоматизации%20тестирования)
 
 
 </details>
