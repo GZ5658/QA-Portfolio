@@ -17,11 +17,11 @@
 [Тестирование API](#api-testing)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REST API | JSON | Postman
 
-<!--[Тестирование баз данных](#data-bases)<br>
+[Тестирование баз данных](#data-bases)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Консоль | SQL | PostgreSQL
 
 [Основы автоматизации тестирования](#test-automation)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python| NodeJS | Puppeteer-->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python| NodeJS | Puppeteer
 
 <details>
 <summary><h2><a name="test-design" />Проектирование тестов </h2></summary>
