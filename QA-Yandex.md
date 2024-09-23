@@ -14,10 +14,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Таблицы принятия решений | попарное тестирование | Баг-репорты<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Эмуляторы | Android Studio
 
-<!--[Тестирование API](#api-testing)<br>
+[Тестирование API](#api-testing)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REST API | JSON | Postman
 
-[Тестирование баз данных](#data-bases)<br>
+<!--[Тестирование баз данных](#data-bases)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Консоль | SQL | PostgreSQL
 
 [Основы автоматизации тестирования](#test-automation)<br>
