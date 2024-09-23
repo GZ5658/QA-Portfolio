@@ -185,3 +185,49 @@
 </details>-->
 
 
+<details>
+<summary><h2><a name="web-testing" />Тестирование веб-приложений </h2></summary>
+
+### DevTools. Charles
+
+**1. Протестировать новую функциональность — аэротакси (Charles)**
+
+Задача — протестировать реализацию на фронтенде, не дожидаясь бэкенда. Для этого придётся поработать в Charles.
+Используй только одно окружение: Яндекс.Браузер.
+Изучи требования к новой фиче.
+Запусти Яндекс Маршруты и подмени ответы от бэкенда, чтобы отобразить новый тип транспорта. В интерфейсе должен появиться расчёт стоимости и времени поездки.
+
+<details>
+<summary><h3> Решение </h3></summary>
+
+**1. Протестировать новую функциональность — аэротакси (Charles)**
+
+[Оригинальный ответ с видами транспорта Charles](https://downloader.disk.yandex.ru/preview/2cc0f91104bc2fed7038ed2304fc2fa759279c3efd80bd76d70f92c59e548560/66ed6506/12BP3PoB2Y-tP_46fLCjdnhxtuq1AkjCD-avvNFvVyse_n1LlRMnM9LMcfHRjvJUpEf68qil8J8iPginUMWBlA%3D%3D?uid=0&filename=1%20Ориг%20ответ%20с%20видами%20транспорта%20Charles.PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+![Оригинальный ответ с видами транспорта Charles](https://downloader.disk.yandex.ru/preview/2cc0f91104bc2fed7038ed2304fc2fa759279c3efd80bd76d70f92c59e548560/66ed6506/12BP3PoB2Y-tP_46fLCjdnhxtuq1AkjCD-avvNFvVyse_n1LlRMnM9LMcfHRjvJUpEf68qil8J8iPginUMWBlA%3D%3D?uid=0&filename=1%20Ориг%20ответ%20с%20видами%20транспорта%20Charles.PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+[Изменённый ответ с видами транспорта из Charles](https://downloader.disk.yandex.ru/preview/5a28ba5db938ccd113039794d7b59c50f82799c95f6d9a8ce9ae0955d027469d/66ed662f/kRn-afO_jaNF9xsNO9_yG3hxtuq1AkjCD-avvNFvVyvhRiniTvX_aNOXiB7lsxzLrJTfKeuhzos4w6sTSYyzPw%3D%3D?uid=0&filename=2.%20Изменённый%20ответ%20с%20видами%20транспорта%20из%20Charles..PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+![Изменённый ответ с видами транспорта из Charles](https://downloader.disk.yandex.ru/preview/5a28ba5db938ccd113039794d7b59c50f82799c95f6d9a8ce9ae0955d027469d/66ed662f/kRn-afO_jaNF9xsNO9_yG3hxtuq1AkjCD-avvNFvVyvhRiniTvX_aNOXiB7lsxzLrJTfKeuhzos4w6sTSYyzPw%3D%3D?uid=0&filename=2.%20Изменённый%20ответ%20с%20видами%20транспорта%20из%20Charles..PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+[Окно с настройками автоматического ответа по видам транспорта из Charles](https://downloader.disk.yandex.ru/preview/9eabd08464ddd8126c6caefee3c7cd9bcd7e14a3dfe0bf1d333c6486d52ab174/66ed6652/gWOAM47Q7oZCTJaAhYUYyXhxtuq1AkjCD-avvNFvVyuAIqJ6G3COyC6nuDgT7S24arYl5zerdFFdjOai9hknUg%3D%3D?uid=0&filename=3.%20Окно%20с%20настройками%20автоматического%20ответа%20по%20видам%20транспорта%20из%20Charles.PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+![Окно с настройками автоматического ответа по видам транспорта из Charles](https://downloader.disk.yandex.ru/preview/9eabd08464ddd8126c6caefee3c7cd9bcd7e14a3dfe0bf1d333c6486d52ab174/66ed6652/gWOAM47Q7oZCTJaAhYUYyXhxtuq1AkjCD-avvNFvVyuAIqJ6G3COyC6nuDgT7S24arYl5zerdFFdjOai9hknUg%3D%3D?uid=0&filename=3.%20Окно%20с%20настройками%20автоматического%20ответа%20по%20видам%20транспорта%20из%20Charles.PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+[Оригинальный ответ с расчётом стоимости и длительности поездки из Charles](https://downloader.disk.yandex.ru/preview/e4f61e148c9db2717f544c95c900313ea6e0894505e93e8e5005d24000836eb9/66ed666e/_MzY5rwV1c57KJHMkisa_nhxtuq1AkjCD-avvNFvVyuV0sMvhFYqdO0R7wbfrtL1C4MTtVqqxMeHyTkys3_v0g%3D%3D?uid=0&filename=4.%20Оригинальный%20ответ%20с%20расчётом%20стоимости%20и%20длительности%20поездки%20из%20DevTools%20или%20Charles.PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+![Оригинальный ответ с расчётом стоимости и длительности поездки из Charles](https://downloader.disk.yandex.ru/preview/e4f61e148c9db2717f544c95c900313ea6e0894505e93e8e5005d24000836eb9/66ed666e/_MzY5rwV1c57KJHMkisa_nhxtuq1AkjCD-avvNFvVyuV0sMvhFYqdO0R7wbfrtL1C4MTtVqqxMeHyTkys3_v0g%3D%3D?uid=0&filename=4.%20Оригинальный%20ответ%20с%20расчётом%20стоимости%20и%20длительности%20поездки%20из%20DevTools%20или%20Charles.PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+[Изменённый ответ с расчётом стоимости и длительности поездки из Charles](https://downloader.disk.yandex.ru/preview/5f8a7c4298c05e1b646a39a4add70b3a3489736ad982da4f36d8e9142c690f13/66ed6687/GopyMazLfl_mXzYYt9LV4cL785hrJws4kSNCdeDDWz6mfWGJEBW2eSp-cIyw7yXqeYChqJBCbuEy9NfnaPX10A%3D%3D?uid=0&filename=5.%20Изменённый%20ответ%20с%20расчётом%20стоимости%20и%20длительности%20поездки%20из%20Charles..PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+![Изменённый ответ с расчётом стоимости и длительности поездки из Charles](https://downloader.disk.yandex.ru/preview/5f8a7c4298c05e1b646a39a4add70b3a3489736ad982da4f36d8e9142c690f13/66ed6687/GopyMazLfl_mXzYYt9LV4cL785hrJws4kSNCdeDDWz6mfWGJEBW2eSp-cIyw7yXqeYChqJBCbuEy9NfnaPX10A%3D%3D?uid=0&filename=5.%20Изменённый%20ответ%20с%20расчётом%20стоимости%20и%20длительности%20поездки%20из%20Charles..PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+[Окно с настройками автоматического ответа по расчёту стоимости и длительности поездки из Charles](https://downloader.disk.yandex.ru/preview/f7609dc2acd55fe1a8adb52512919bf0319322fd2b0c00b8847fdb4eb5053ea4/66ed669f/P2HaXOBFwmZQIJQni-fgBXhxtuq1AkjCD-avvNFvVyunZlcrIPoz5l-dXKe5f4hOyeK9BovShcYvFCvzjhiuag%3D%3D?uid=0&filename=6.%20Окно%20с%20настройками%20автоматического%20ответа%20по%20расчёту%20стоимости%20и%20длительности%20поездки%20из%20Charles.PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+![Окно с настройками автоматического ответа по расчёту стоимости и длительности поездки из Charles](https://downloader.disk.yandex.ru/preview/f7609dc2acd55fe1a8adb52512919bf0319322fd2b0c00b8847fdb4eb5053ea4/66ed669f/P2HaXOBFwmZQIJQni-fgBXhxtuq1AkjCD-avvNFvVyunZlcrIPoz5l-dXKe5f4hOyeK9BovShcYvFCvzjhiuag%3D%3D?uid=0&filename=6.%20Окно%20с%20настройками%20автоматического%20ответа%20по%20расчёту%20стоимости%20и%20длительности%20поездки%20из%20Charles.PNG&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+
+</details>
+</details>
+
+
+
