@@ -51,7 +51,7 @@
 
 [Mindmap в большом разрешении](https://i.ibb.co/vLMP7X8/yandex-routes.png)
 
-[Блок схема](https://downloader.disk.yandex.ru/preview/0afcad20895ebb198a4bf40983f08419f936396f1ea65697e8ef10ebe1d824cc/66ec1e63/mEsF7H3r567gsM9DJd1PprUBqGcfIDpt-OIGfhAXtbcYniWYYcRO_W2sbPyC85YhIQTSdWJN-y9DFtC35FFoBQ%3D%3D?uid=0&filename=Блок%20схема.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048)
+[Блок схема](https://downloader.disk.yandex.ru/preview/9c7070077097359d479bb0d92ef1c4375eb7c6948467854756ad1dd7fdd9d318/66f1748e/mEsF7H3r567gsM9DJd1PprUBqGcfIDpt-OIGfhAXtbcYniWYYcRO_W2sbPyC85YhIQTSdWJN-y9DFtC35FFoBQ%3D%3D?uid=0&filename=Блок%20схема.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048)
 
 **2. Mindmap фичи**
 
