@@ -5,7 +5,7 @@
 [Проектирование тестов](#test-design)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Тест-анализ | Mind map | Серые зоны<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Тест-дизайн | Классы эквивалентности | Граничные значения<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Тестовая документация | Чек-листы | Тест-кейсы
+<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Тестовая документация | Чек-листы | Тест-кейсы-->
 
 <!--[Тестирование веб-приложений](#web-testing)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DevTools | Charles<br>
@@ -142,7 +142,7 @@
 
 </details>
 
-### Тестовая документация | Чек-листы | Тест-кейсы
+<!--### Тестовая документация | Чек-листы | Тест-кейсы
 
 **1. Переходы между всплывающими окнами: Чек лист**
 
@@ -182,4 +182,6 @@
 **2. Тест кейсы для кнопки «Забронировать**
 
 </details>
-</details>
+</details>-->
+
+
