@@ -184,6 +184,8 @@
 </details>
 </details>-->
 
+</details>
+
 
 <details>
 <summary><h2><a name="web-testing" />Тестирование веб-приложений </h2></summary>
