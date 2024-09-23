@@ -377,3 +377,116 @@
 </details>
 
 
+<details>
+<summary><h2><a name="api-testing" />Тестирование API </h2></summary>
+
+### Тестирование API
+
+**1. RES API. JSON. Postman**
+Необходимо протестировать часть функциональности API приложения Яндекс Прилавок 
+Требования к приложению находятся тут.
+1. Составь чек-лист для проверки четырёх эндпоинтов, которые указаны ниже. 
+2. Проведи тестирование API через Postman по составленному чек-листу и заведи баг-репорты в YouTrack.
+3. Составь отчет
+
+Эндпоинты:
+- Работа с курьерами: возможность проверить, есть ли доставка курьерской службой «Привезём быстро» и сколько она стоит — ручка POST /fast-delivery/v3.1.1/calculate-delivery.xml.
+- Работа с корзиной: возможность получить список продуктов, которые добавили в корзину — ручка GET /api/v1/orders/:id. 
+- Возможность добавлять продукты в корзину — ручка PUT /api/v1/orders/:id. 
+- Возможность удалять корзину — ручка DELETE /api/v1/orders/:id.
+
+<details>
+<summary><h3> Отчет </h3></summary>
+
+Отчёт о тестировании Яндекс Прилавка
+Тестирование API Яндекс Прилавка проводилось с использованием инструмента Postman.
+Для тестирования API составлен [чек-лист](https://docs.google.com/spreadsheets/d/1KzRPds99JmNAbX32mBKWREYY8Y_riNlEUFutHennZ-Y/edit?usp=sharing)
+[Результаты выполнения тестов](https://docs.google.com/spreadsheets/d/1KzRPds99JmNAbX32mBKWREYY8Y_riNlEUFutHennZ-Y/edit?usp=sharing)
+[Коллекция Postman](https://disk.yandex.ru/d/3VYXJpjrnW9GSQ)
+
+
+Из 101 проверок успешно прошло 66, не прошло — 44, пропущено — 1.
+Список багов, найденных при тестировании, разбит по приоритетам:
+Критичные:
+[YP-1](https://gz5658.youtrack.cloud/issue/YMSprint6-24/8-14-Status-200-pri-otpravke-zaprosa-na-dostavku-vne-rabochego-vremeni)
+[YP-2](https://gz5658.youtrack.cloud/issue/YMSprint6-25/16-18-Dostavka-privezem-bystro-dostupna-pri-ukazanii-bukvy-zaprose-v-deliveryTime)
+[YP-3](https://gz5658.youtrack.cloud/issue/YMSprint6-26/19-Dostavka-privezem-bystro-dostupna-pri-ukazanii-specsimvola-v-zaprose-v-deliveryTime)
+[YP-4](https://gz5658.youtrack.cloud/issue/YMSprint6-27/20-Oshibka-v-otvete-pri-ukazanii-otricatelnogo-chisla-v-zaprose-v-deliveryTime)
+[YP-5](https://gz5658.youtrack.cloud/issue/YMSprint6-28/22-23-Dostavka-privzem-bystro-dostupna-pri-ukazanii-ne-celogo-chisla-v-deliveryTime)
+[YP-6](https://gz5658.youtrack.cloud/issue/YMSprint6-29/24-Dotsavka-privezem-bystro-dostupna-pri-pustom-znachenii-deliveryTime)
+[YP-7](https://gz5658.youtrack.cloud/issue/YMSprint6-30/25-Dostavka-Privezem-bystro-dostupna-esli-productsCount-ravno-0)
+[YP-8](https://gz5658.youtrack.cloud/issue/YMSprint6-31/38-Dostavka-Privezem-bystro-dostupna-esli-productsCount-pustoe-znachenie)
+[YP-9](https://gz5658.youtrack.cloud/issue/YMSprint6-32/39-41-Dostavka-Privezem-bystro-dostupna-esli-v-productsCount-bukvennoe-znachenie)
+[YP-10](https://gz5658.youtrack.cloud/issue/YMSprint6-33/42-43-Dostavka-Privezem-bystro-dostupna-esli-v-productsCount-ne-celoe-chislo)
+[YP-11](https://gz5658.youtrack.cloud/issue/YMSprint6-34/44-Dostavka-Privezem-bystro-dostupna-esli-v-productsCount-specsimvol)
+[YP-12](https://gz5658.youtrack.cloud/issue/YMSprint6-36/46-Oshibka-v-strukture-otveta-esli-productWeight-ravno-0)
+[YP-13](https://gz5658.youtrack.cloud/issue/YMSprint6-35/45-Oshibka-v-strukture-otveta-esli-v-productsCount-otricatelnoe-chislo)
+[YP-14](https://gz5658.youtrack.cloud/issue/YMSprint6-37/59-61-Oshibka-v-strukture-otveta-esli-v-productsWeight-ukazana-bukva)
+[YP-15](https://gz5658.youtrack.cloud/issue/YMSprint6-38/63-Oshibka-v-strukture-otveta-esli-v-productsWeight-otricatelnoe-chislo)
+[YP-16](https://gz5658.youtrack.cloud/issue/YMSprint6-39/64-Oshibka-v-strukture-otveta-esli-v-productsWeight-pustoe-znachenie)
+[YP-17](https://gz5658.youtrack.cloud/issue/YMSprint6-40/25-7-Oshibka-v-otvete-pri-Poluchenie-spiska-produktov-v-korzine-ukazannoj-bukvami)
+[YP-18](https://gz5658.youtrack.cloud/issue/YMSprint6-41/28-Oshibka-v-otvete-pri-Poluchenie-spiska-produktov-v-korzine-ukazannoj-specsimvolom)
+[YP-19](https://gz5658.youtrack.cloud/issue/YMSprint6-41/28-Oshibka-v-otvete-pri-Poluchenie-spiska-produktov-v-korzine-ukazannoj-specsimvolom)
+[YP-20](https://gz5658.youtrack.cloud/issue/YMSprint6-42/29Oshibka-v-otvete-pri-Poluchenie-spiska-produktov-v-korzine-ukazannoj-c-tochkoj)
+[YP-21](https://gz5658.youtrack.cloud/issue/YMSprint6-43/210Oshibka-v-otvete-pri-Poluchenie-spiska-produktov-v-korzine-ukazannoj-c-zapyatoj)
+[YP-22](https://gz5658.youtrack.cloud/issue/YMSprint6-45/39Oshibka-v-otvete-pri-doavlenii-spiska-produktov-v-korzinu-so-specsimvolom)
+[YP-23](https://gz5658.youtrack.cloud/issue/YMSprint6-44/35-Oshibka-v-otvete-pri-doavlenii-spiska-produktov-v-korzinu-kazannoj-bukvami)
+[YP-24](https://gz5658.youtrack.cloud/issue/YMSprint6-46/311Oshibka-v-otvete-pri-doavlenii-spiska-produktov-v-korzinu-ukazannoj-s-tochkoj)
+[YP-25](https://gz5658.youtrack.cloud/issue/YMSprint6-47/317-Produkt-dobavlyaetsya-v-korzinu-s-kolichestvom-0)
+[YP-26](https://gz5658.youtrack.cloud/issue/YMSprint6-48/318-Produkt-dobavlyaetsya-v-korzinu-s-pustym-kolichestvom)
+[YP-27](https://gz5658.youtrack.cloud/issue/YMSprint6-22/42-Udalenie-korziny)
+Также в рамках работы была составлена схема приложения:
+
+Локализация бага [YP-20](https://gz5658.youtrack.cloud/issue/YMSprint6-17) показала, что баг находится на стороне фронтенда. Должна быть валидация поля Имя набора на длину не менее 2 и не более 15 символов,только русские и английские буквы, пробел, тире  (согласно требованиям), но при этом валидация проходит на одном символе и цифре. 
+БР: [YP-21](https://gz5658.youtrack.cloud/issue/YMSprint6-53/V-pole-Imya-nabora-mozhno-vvesti-bolee-15-simvolov) - можно ввести более 15 символов в Имя набора [YP-22](https://gz5658.youtrack.cloud/issue/YMSprint6-54/V-pole-Imya-nabora-mozhno-vvesti-menee-2-simvolov) - можно ввести менее 2 символов в Имя набора 
+При воспроизведении бага не выдается Окно об ошибке. Во время воспроизведения ошибки использовался Devtools, который показал в запросе products текст  500 Internal Server Error, тогда как ожидалась ошибка 400 "Не все необходимые параметры были переданы" . БР YMSprint6-57- Неверное отображение ошибки при создании набора без выбора продуктов
+Так же обнаружены Баги 
+[YP-23](https://gz5658.youtrack.cloud/issue/YMSprint6-49/V-pole-Nazvanie-pri-sozdanii-nabora-mozhno-vvesti-specsimvol) -  в поле Имя набора можно ввести спецсимвол
+[YP-24](https://gz5658.youtrack.cloud/issue/YMSprint6-50/Mozhno-sozdat-nabor-bez-produktov) - создание набора без продуктов
+[YP-25](https://gz5658.youtrack.cloud/issue/YMSprint6-55/V-pole-Imya-nabora-mozhno-vvesti-cifry) - можно ввести цифры в Имя набора 
+[YP-26](https://gz5658.youtrack.cloud/issue/YMSprint6-56/V-pole-produkty-mozhno-dobavit-bolee-30-produktov) - можно добавить более 30 продуктов при создании
+
+Баги на Бэкэнде [YP-27](https://gz5658.youtrack.cloud/issue/YMSprint6-51/100.-Sozdanie-nabora-bez-peredachi-obyazatelnogo-parametra-productsList) - Создание набора без передачи обязательного параметра productsList 
+[YP-28](https://gz5658.youtrack.cloud/issue/YMSprint6-52/101.-Sozdanie-nabora-s-pustym-znacheniem-productsList) - Создание набора с пустым значением productsList
+
+Для анализа информационных логов необходимо выполнить следующие команды:
+```
+$ ssh-keygen
+$ cat ~/.ssh/id_rsa.pub
+$ ssh <имя пользователя>@<хост> -p <порт>
+ (то что я вводил: ssh d7c6b116-c409-4ac4-ba5c-340e7342e6c6@serverhub.praktikum-services.ru -p 4554)
+$ mkdir home/morty/generallogs
+$ cp ../var/www/backend/packages/main/logs/combined.log logs1.log
+$ cp ../var/www/backend/packages/secondary/build/logslogs/combined.log logs2.log
+$ grep -i INFO home/morty/generallogs/logs1.log > info.log
+$ grep -i INFO home/morty/generallogs/logs2.log >> info.log
+```
+
+Найденные критические дефекты расположены в основных пользовательских сценариях, команда тестирования против публикации текущей версии API 
+Так же обнаружен баг, перекрывающий контент при регистрации 
+[YP-29](https://gz5658.youtrack.cloud/issue/YMSprint6-23/Perekrytie-teksta-Okna-registracii-polzovatelya-Yandeks-Prilavok)
+
+
+</details>
+
+</details>
+
+<details>
+<summary><h2><a name="data-bases" />Тестирование баз данных </h2></summary>
+
+### Тестирование баз данных
+
+
+
+
+<details>
+<summary><h3> Отчет </h3></summary>
+
+
+
+
+
+
+</details>
+
+</details>
