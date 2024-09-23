@@ -453,8 +453,7 @@
 ```
 $ ssh-keygen
 $ cat ~/.ssh/id_rsa.pub
-$ ssh <имя пользователя>@<хост> -p <порт>
- (то что я вводил: ssh d7c6b116-c409-4ac4-ba5c-340e7342e6c6@serverhub.praktikum-services.ru -p 4554)
+$ ssh d7c6b116-c409-4ac4-ba5c-340e7342e6c6@serverhub.praktikum-services.ru -p 4554 
 $ mkdir home/morty/generallogs
 $ cp ../var/www/backend/packages/main/logs/combined.log logs1.log
 $ cp ../var/www/backend/packages/secondary/build/logslogs/combined.log logs2.log
