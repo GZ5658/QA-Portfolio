@@ -471,7 +471,7 @@ $ grep -i INFO home/morty/generallogs/logs2.log >> info.log
 
 </details>
 
-<details>
+<!--<details>
 <summary><h2><a name="data-bases" />Тестирование баз данных </h2></summary>
 
 ### Тестирование баз данных
@@ -490,3 +490,4 @@ $ grep -i INFO home/morty/generallogs/logs2.log >> info.log
 </details>
 
 </details>
+-->
