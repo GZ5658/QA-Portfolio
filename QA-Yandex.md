@@ -21,7 +21,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Консоль | SQL | PostgreSQL
 
 [Основы автоматизации тестирования](#test-automation)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python| NodeJS | Puppeteer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python
 
 <details>
 <summary><h2><a name="test-design" />Проектирование тестов </h2></summary>
@@ -489,3 +489,18 @@ $ grep -i INFO home/morty/generallogs/logs2.log >> info.log
 
 </details>
 -->
+
+<details>
+<summary><h2><a name="test-automation" />Основы автоматизации тестирования </h2></summary>
+
+### Тестирование баз данных
+
+<details>
+<summary><h3> Отчет </h3></summary>
+
+https://github.com/GZ5658/yandex_api_stand_tests
+
+
+</details>
+
+</details>
